@@ -1,0 +1,75 @@
+.popup-container {
+  padding: 1rem;
+  width: 340px;
+  font-family: sans-serif;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #333;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button:disabled {
+  background-color: #93c5fd;
+  cursor: not-allowed;
+}
+
+.summary-box {
+  margin-top: 1rem;
+  white-space: pre-wrap;
+  background-color: #f3f4f6;
+  padding: 0.75rem;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.saved-section {
+  margin-top: 1.5rem;
+}
+
+.saved-summary {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 0.75rem;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  position: relative;
+}
+
+.saved-summary a {
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.saved-summary a:hover {
+  text-decoration: underline;
+}
+
+.saved-summary small {
+  color: #6b7280;
+  font-size: 11px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  color: #dc2626;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: auto;
+}
