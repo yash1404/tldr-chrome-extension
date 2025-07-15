@@ -13,3 +13,7 @@ Summarize any web article using AI (HuggingFace) directly from your browser.
 - Vite + React
 - Chrome Extension (Manifest v3)
 - HuggingFace Transformers
+
+
+🤝 Contribution
+Feel free to fork and submit a PR or raise an issue!
